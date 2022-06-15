@@ -1,0 +1,181 @@
+body {
+    max-height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: "logo_image.jpg";
+}
+header > div >div>p{
+    position: absolute;
+    display: inline;
+    margin-top: 0%;
+    margin-left: 11%;
+    font-size: 127%;
+    float: left;
+}
+
+.header * {
+    position: fixed;
+    display: flex;
+}
+
+.nav1 {
+    width: 100%;
+    margin-top: -2%;
+    background-color: rgb(32, 190, 156);
+}
+
+.nav1 li {
+    display: inline-block;
+    padding: 9px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.nav2 {
+    width: 100%;
+    height: 50%;
+    display: block;
+
+}
+
+.nav2 li {
+    display: inline-block;
+    margin-left: 2.125em;
+}
+
+.nav2 img {
+    width: 6.25em;
+    height: 6.25em;
+    display: inline-block;
+    margin-top: -1.938em;
+    margin-left: 3.438em;
+    margin-right: 4.938em;
+    float: left;
+}
+
+.fa-facebook-f {
+    color: white;
+    margin-left: -2.75em;
+}
+
+.fa-twitter {
+    color: white;
+    margin-left: -3.813em;
+}
+
+.fa-google-plus-g {
+    color: white;
+    margin-left: -4.688em;
+}
+.fa-dribbble{
+    color: white;
+    margin-left: -5.063em;
+}
+.fa-rss{
+    color: white;
+    margin-left: -5.900em;
+}
+.fa-linkedin {
+    color: white;
+    margin-left: -6.625em;
+}
+
+.fa-envelope {
+    margin-left: 24.900em;
+    margin-right: 0.438em;
+}
+
+.fa-phone {
+    margin-left: -1.875em;
+    margin-right: 1.25em;
+}
+
+.button {
+    background-color: rgb(32, 190, 156);
+    border: none;
+    margin-left: 5.688em;
+    color: white;
+    font-size: 100%;
+    padding: 0.75em 1.25em;
+    cursor: pointer;
+    text-align: center;
+}
+
+#intro img {
+    width: 100%;
+    height: 2%;
+    z-index: 8;
+}
+
+.text {
+    position: absolute;
+    top: 53%;
+    bottom: 50%;
+    left: 15%;
+    color: white;
+    font-size: 225%;
+}
+
+.text2 {
+    position: absolute;
+    top: 60%;
+    bottom: 50%;
+    left: 15%;
+    color: white;
+    font-size: 100%;
+}
+
+.text3 {
+    position: absolute;
+    top: 73%;
+    left: 15%;
+    background-color: rgb(117 126 130);
+    color: white;
+    font-size: 1em;
+    padding: 0.75em 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.text4 {
+    position: absolute;
+    top: 73%;
+    left: 30%;
+    background-color: rgb(117 126 130);
+    color: white;
+    font-size: 16px;
+    padding: 0.75em 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.prev {
+    position: absolute;
+    top: 65%;
+    left: 1%;
+    color: white;
+    font-size: 150%;
+}
+
+.next {
+    position: absolute;
+    top: 65%;
+    right: 1%;
+    color: white;
+    font-size: 150%;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
