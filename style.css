@@ -3,12 +3,14 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     background-image: "logo_image.jpg";
+    font-family: sans-serif;
 }
-header > div >div>p{
-    position: absolute;
+
+header>div>div>p {
+    position: static;
     display: inline;
     margin-top: 0%;
-    margin-left: 11%;
+    margin-left: -7%;
     font-size: 127%;
     float: left;
 }
@@ -29,7 +31,7 @@ header > div >div>p{
     padding: 9px;
     color: white;
     margin-top: 5px;
-    margin-left: 25px;
+    margin-left: 1.313em;
     margin-bottom: 5px;
     font-size: 13px;
 }
@@ -44,6 +46,43 @@ header > div >div>p{
 .nav2 li {
     display: inline-block;
     margin-left: 2.125em;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    color: red;
+    transition: 0.3s ease-out;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: rgb(231, 173, 37);
+    transition: 0.3s ease-out;
+}
+
+.text3:hover {
+    background-color: rgb(122, 122, 122);
+    cursor: pointer;
+    color: rgb(231, 173, 37);
+    transition: 0.3s ease-out;
+}
+
+.text4:hover {
+    background-color: rgb(122, 122, 122);
+    cursor: pointer;
+    color: rgb(231, 173, 37);
+    transition: 0.3s ease-out;
+}
+
+a:visited {
+    color: black;
+
 }
 
 .nav2 img {
@@ -58,39 +97,50 @@ header > div >div>p{
 
 .fa-facebook-f {
     color: white;
-    margin-left: -2.75em;
+    margin-left: -322%;
+    cursor: pointer;
 }
 
 .fa-twitter {
     color: white;
     margin-left: -3.813em;
+    cursor: pointer;
 }
 
 .fa-google-plus-g {
     color: white;
     margin-left: -4.688em;
+    cursor: pointer;
 }
-.fa-dribbble{
+
+.fa-dribbble {
     color: white;
     margin-left: -5.063em;
+    cursor: pointer;
 }
-.fa-rss{
+
+.fa-rss {
     color: white;
     margin-left: -5.900em;
+    cursor: pointer;
 }
+
 .fa-linkedin {
     color: white;
     margin-left: -6.625em;
+    cursor: pointer;
 }
 
 .fa-envelope {
     margin-left: 24.900em;
     margin-right: 0.438em;
+    cursor: pointer;
 }
 
 .fa-phone {
     margin-left: -1.875em;
     margin-right: 1.25em;
+    cursor: pointer;
 }
 
 .button {
@@ -178,4 +228,181 @@ header > div >div>p{
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
+}
+
+.leftcolumn {
+    float: left;
+    width: 29%;
+    padding-left: 13px;
+}
+
+.image-1 img {
+    margin-left: 3.938em;
+    width: 84%;
+}
+
+.img-1 img {
+    width: 11%;
+    margin-left: 6%;
+    display: inline;
+    margin-bottom: -2%;
+    cursor: pointer;
+}
+
+.img-2 img {
+    width: 13%;
+    margin-left: -2%;
+    display: inline;
+    margin-top: 1%;
+    margin-bottom: -2%;
+    cursor: pointer;
+}
+
+.img-3 img {
+    width: 13%;
+    margin-left: -2%;
+    display: inline;
+    margin-top: -1%;
+    margin-bottom: -2%;
+    cursor: pointer;
+}
+
+.img-4 img {
+    width: 12%;
+    margin-left: 3%;
+    display: inline;
+    margin-top: -4%;
+    margin-bottom: -2%;
+    cursor: pointer;
+}
+
+.img-5 img {
+    width: 17%;
+    margin-left: 59%;
+    display: inline;
+    margin-top: -2%;
+    margin-bottom: 4%;
+    cursor: pointer;
+}
+
+.img-6 img {
+    width: 12%;
+    margin-left: 77%;
+    display: inline;
+    margin-top: -16%;
+    margin-bottom: 7%;
+    cursor: pointer;
+}
+
+.footer-container {
+    background-color: rgb(38, 35, 35);
+    /* padding: 4rem; */
+    height: 50%;
+    font-size: 80%;
+}
+
+.footer {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+
+}
+
+.footer-heading-footer-1 {
+    display: inline;
+    color: white;
+    margin-right: 3%;
+    margin-left: 7%;
+    width: 25%;
+    padding-top: 2%;
+
+}
+
+.footer-heading-footer-2 {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 20%;
+    padding-top: 2%;
+
+}
+
+.footer-heading-footer-3 {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-right: 3%;
+    margin-left: 3%;
+    width: 15%;
+    padding-top: 2%;
+
+
+}
+
+.footer-heading-footer-4 {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 2%;
+
+
+}
+
+.footer-heading-footer-4>p {
+    width: 133%;
+}
+
+
+.footer a {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.footer a:hover {
+    color: red;
+    transition: 0.3s ease-out;
+
+}
+
+#footer-email {
+    width: 66%;
+    height: 7%;
+    padding-left: 2%;
+    outline: none;
+}
+
+.footer .fa-envelope {
+    height: 2%;
+    width: 6%;
+    margin-left: 70%;
+    margin-top: -9.1%;
+    background-color: rgb(32, 190, 156);
+    padding: 5.24%;
+    padding-top: 2%;
+    border-radius: 5%;
+}
+
+.footer-2 {
+    color: white;
+    width: 100%;
+    margin-top: -2%;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer-2 li {
+    display: inline-block;
+    padding: 9px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 1.88%;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.footer-2 .fa-facebook-f {
+    margin-left: 46.9em;
+    margin-right: 2.438em;
+    cursor: pointer;
 }
