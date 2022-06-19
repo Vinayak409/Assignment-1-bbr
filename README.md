@@ -2,7 +2,7 @@
 ## Created a website layout using html and css
 ### website link : https://vinayak409.github.io/Assignment-1-bbr/
 
-![Screenshot (137)](https://user-images.githubusercontent.com/75150039/174342286-85960e62-bc44-4539-9805-18a45f1260f2.png)
+![Screenshot (140)](https://user-images.githubusercontent.com/75150039/174468501-483eaae7-18a8-4ab3-9e90-98b71d4ee39b.png)
 
 ![Screenshot (138)](https://user-images.githubusercontent.com/75150039/174342265-598a4ae0-fe73-492b-8806-5cd7b472161a.png)
 
